@@ -1,0 +1,14 @@
+dd/mm/yy format throughout.
+
+8/8/23 17:58 - Initiated the project. 
+
+8/8/23 21:18 - Added the basic layout with all the projects sorted into 3 levels, 1-3; 1 being the most important with each project a colour assigned to indicate status. Added links to all the titles that can be edited in due time. Started the first sub page Jarvis mk-4.
+
+9/8/23 16:44 - Added all the sub-pages and linked to the index file , was a painfully repetetive task but thats done, only thing left for tomorrow is the actualy docs files needed to be filled in with text. That need not be done now for all projects.
+
+10/8/23 9:55 - Made the index file responsive, generally, not suited to my phone.
+
+11/8/23 11:11 - Finished making all pages (added 375px to index file as well) responsive with max widths at 500 and 375px with 500 being general responsive and 375 customised to my phone.
+
+
+
