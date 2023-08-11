@@ -14,3 +14,4 @@ dd/mm/yy format throughout.
  
 11/8/23 16:12 - Fixed bugs with hyperlinking the index file.
 
+11/8/23 16:26 - Fixed bugs with favicon linking.
