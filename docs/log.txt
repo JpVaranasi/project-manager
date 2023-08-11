@@ -11,5 +11,6 @@ dd/mm/yy format throughout.
 11/8/23 11:11 - Finished making all pages (added 375px to index file as well) responsive with max widths at 500 and 375px with 500 being general responsive and 375 customised to my phone.
 
 11/8/23 12:53 - Fixed bugs with hyperlinking and publishing to github pages and added favicons to all pages and changed folder structure.
-
+ 
+11/8/23 16:12 - Fixed bugs with hyperlinking the index file.
 
