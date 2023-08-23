@@ -15,3 +15,12 @@ dd/mm/yy format throughout.
 11/8/23 16:12 - Fixed bugs with hyperlinking the index file.
 
 11/8/23 16:26 - Fixed bugs with favicon linking.
+
+19/8/23 10:37 - Added docs content to a few pages with also adding a css ::selector to modify the highlight colors.
+
+20/8/23 11:02 - Continued adding docs content.
+
+22/8/23 19:12 - Added content to Jarvis 1.
+
+23/8/23 9:26 - Finished adding content to all current/past projects and css for selectors to all pages.
+
