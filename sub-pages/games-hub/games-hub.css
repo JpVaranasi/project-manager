@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Shadows+Into+Light&display=swap');
+
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    background: #0F3460;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background: #182747;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #182747;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-size: 1rem;
+    margin: 0 auto;
+    font-family: 'Anonymous Pro',monospace;
+    background-color: #16213E;
+    color: white;
+}
+.header{
+    width: fit-content;
+    margin: 100px auto;
+}
+.nav{
+    font-size: 4rem;
+    width: fit-content;
+    margin-left: 15px;
+    margin-top: -167px;
+}
+.container{
+    width: 1500px;
+    max-width: 1750px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.docs{
+    width: 600px;
+    height: 750px;
+    border: 10px solid black;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid reds;
+}
+.docs-heading{
+    width: 100%;
+    background-color: #0C090A;
+    height: fit-content;
+    padding-left: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: #242124;
+    height: 100%;
+    overflow: auto;
+    text-align:justify;
+}
+.content-content{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.content-content::selection{
+    color: black;
+    background-color: white;
+}
+
+.content::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+}
+.content::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 30px;
+}
+.content::-webkit-scrollbar-thumb {
+    background: #242124;
+    border-radius: 30px;
+}
+.content::-webkit-scrollbar-thumb:hover {
+    background: #242124;
+    border-radius: 30px;
+}
+.orange{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 20px;
+}
+.green{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 20px;
+}
+.red{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 20px;
+}
+.grey{
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 20px;
+}
+.box{
+    width: 250px;
+    height: 50px;
+    background-color: #0F3460;
+    border-radius: 10px;
+    color: white;
+    min-width: 225px;
+}   
+.box-titles{
+    padding-left: 10px;
+    margin: auto 0;  
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container2{
+    width: 600px;
+    height: 550px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.lvl-ind{
+    width: fit-content;
+    margin-right: 22px;
+}
+.footer-key{
+    width: fit-content;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+.col+.col{
+    margin-top: 50px;
+}
+@media screen and (max-width:500px) 
+{
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 490px;
+    }
+    .docs{
+        max-width: 480px;
+        margin-left: 5px;
+    }
+    .container2{
+        margin-right: 0px;
+        max-width: 490px;
+    }
+    .box{
+        margin: 0px auto;
+    }
+    .footer-key{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:376px) 
+{
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 365px;
+    }
+    .docs{
+        max-width: 355px;
+        margin-left: 5px;
+    }
+    .container2{
+        margin-right: 0px;
+        max-width: 365px;
+    }
+    .box{
+        margin: 0px auto;
+    }
+    .footer-key{
+        margin-left: 20px;
+    }
+}
+
