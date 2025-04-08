@@ -60,6 +60,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.row7{
+    display: flex;
+    flex-direction: row;
+}
 .docs{
     width: 600px;
     height: 400px;
